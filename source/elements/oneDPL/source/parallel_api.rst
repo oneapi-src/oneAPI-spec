@@ -689,6 +689,7 @@ than an element in the range being searched.
 The elements e of [start, end) must be partitioned with respect to the comparator used.
 
 .. code:: cpp
+
     template <class Policy, class InputIt, class OutputIt, class UnaryOp, class UnaryPredicate>
     OutputIt
     transform_if(Policy&& policy, InputIt start, InputIt end, OutputIt result, UnaryOp op,
