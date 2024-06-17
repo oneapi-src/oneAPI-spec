@@ -689,6 +689,7 @@ than an element in the range being searched.
 The elements e of [start, end) must be partitioned with respect to the comparator used.
 
 .. code:: cpp
+
     template <typename Policy, typename InputIt, typename Size, typename OutputIt,
         typename ValueType>
     OutputIt
